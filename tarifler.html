@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boostrap.css">
+    <title>Tarifler</title>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- header -->
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="anasayfa.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">Lezzet Sepeti</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="anasayfa.html" class="nav-link" aria-current="page">Anasayfa</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Hakkımızda</a></li>
+              <li class="nav-item"><a href="tarifler.html" class="nav-link active">Tarifler</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">İletişim</a></li>
+            </ul>
+        </header>
+        <!-- header bitis -->
+
+        <!-- navbar -->
+        <div class="headLine mb-2">
+          <h1 class="text-center">Çilekli Pankek</h1>
+        </div>
+        <!-- navbar bitis -->
+
+
+        <!-- breadcrump -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="#">Tarifler</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Çilekli Pankek</li>
+          </ol>
+        </nav>
+
+
+        <div class="row">
+
+
+          <div class="col-3">
+
+            <ul class="nav flex-column nav-pills nav-fill">
+              <li class="nav-item text-start">
+                  <a class="nav-link active" aria-current="page" href="#">Çilekli Pankek</a>
+              </li>
+              <li class="nav-item text-start">
+                  <a class="nav-link" href="#">Milföy Tatlısı</a>
+              </li>
+              <li class="nav-item text-start">
+                  <a class="nav-link" href="#">Karamelli Pasta</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-9">
+            <p>
+              Derin bir kaba yumurtayı kırın. Üzerine sütü dökün. İyice çırpın. Unu ve kabartma tozunu eleyip, ekleyin. Vanilya, tuz ve şekeri de koyun. Pürüzsüz bir kıvam alana kadar iyice çırpın.
+            </p>
+
+            <div class="text-center">
+              <img src="img/pancake.jpg" alt="">
+            </div>
+
+            <p>
+              Küçük boydaki bir tavanın tabanını hafifçe yağlayın. Tavayı yüksek ateşte kızdırın. Daha sonra ocağın altını kısın. Pankek harcından 1 yemek kaşığı alın. Tavaya dökün. Kenarları toparlanıp, üzeri göz göz olunca spatula yardımıyla diğer tarafını çevirin. 10 saniye kadar diğer tarafını pişirin.
+            </p>
+
+            <p>
+              Pişen mini pankekleri servis tabağına alın. Çilekleri dilimleyin. Mini pankeklerin üzerine dilimlenmiş çilekleri koyun. Daha sonra birer pankek daha yerleştirin. 
+            </p>
+
+            <h3>Malzemeler</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Malzeme Adı</th>
+                  <th scope="col">Adet</th>
+                  <th scope="col">Kilo</th>
+                  <th scope="col">Tane</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Çilek</td>
+                  <td>5 adet</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Karamel</td>
+                  <td>-</td>
+                  <td>Yarım Kilo</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Pankek</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>3 tane</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+          </div>
+        </div>
+        <!-- breadcrump bitis -->
+
+        <!-- comments -->
+        <div class="row">
+
+          <div class="col-3"></div>
+
+          <div class="col-9 m-auto">
+
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-body">
+
+                    <form method="get">
+
+                        <h4 class="mb-3">Ürünü Değerlendirin</h4>
+
+                        <div class="form-floating mb-3">
+                            <textarea name="comment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;" required></textarea>
+                            <label for="floatingTextarea">Yorumunuz</label>
+                        </div>
+
+                        <div class="rate fs-5 rate-yellow mb-3">
+                            <input name="rating" type="radio" id="star1" value="1" required>
+                            <input name="rating" type="radio" id="star2" value="2" required>
+                            <input name="rating" type="radio" id="star3" value="3" required>
+                            <input name="rating" type="radio" id="star4" value="4" required>
+                            <input name="rating" type="radio" id="star5" value="5" required>
+
+                            <label for="star1" class="bi bi-star"></label>
+                            <label for="star2" class="bi bi-star"></label>
+                            <label for="star3" class="bi bi-star"></label>
+                            <label for="star4" class="bi bi-star"></label>
+                            <label for="star5" class="bi bi-star"></label>
+                        </div>
+
+                        <input type="submit" class="btn btn-dark" value="Gönder">
+                    </form>
+
+                </div>
+            </div>
+
+
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-body">
+                    <h4>Yorumlar</h4>
+                    <span class="rate-yellow">
+                        <small for="star1" class="bi bi-star-fill"></small>
+                        <small for="star2" class="bi bi-star-fill"></small>
+                        <small for="star3" class="bi bi-star-fill"></small>
+                        <small for="star4" class="bi bi-star-fill"></small>
+                        <small for="star5" class="bi bi-star"></small>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div class="text-muted fs-6 mb-3">Koray SADIKLAR, 28/02/2021</div>
+                    <ul class="list-inline fs-5">
+                        <li class="list-inline-item me-4">
+                            <i class="bi bi-hand-thumbs-up"></i> 32
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="bi bi-hand-thumbs-down"></i> 5
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-3">
+              <div class="card-body">
+                  <span class="rate-yellow">
+                      <small for="star1" class="bi bi-star-fill"></small>
+                      <small for="star2" class="bi bi-star-fill"></small>
+                      <small for="star3" class="bi bi-star-fill"></small>
+                      <small for="star4" class="bi bi-star-fill"></small>
+                      <small for="star5" class="bi bi-star"></small>
+                  </span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  <div class="text-muted fs-6 mb-3">Koray SADIKLAR, 28/02/2021</div>
+                  <ul class="list-inline fs-5">
+                      <li class="list-inline-item me-4">
+                          <i class="bi bi-hand-thumbs-up"></i> 32
+                      </li>
+                      <li class="list-inline-item">
+                          <i class="bi bi-hand-thumbs-down"></i> 5
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- comments bitis-->
+
+        <!-- footer -->
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top m-auto">
+            <div class="col mb-3">
+              <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <p class="text-muted">Lezzet Sepeti</p>
+            </div>
+        
+            <div class="col mb-3">
+        
+            </div>
+        
+            <div class="col mb-3">
+              <h5>Tarifler</h5>
+
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Çilekli Pankek</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Milföy Tatlısı</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Karamelli Tatlı</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lezzetli Çipetpet</a></li>
+              </ul>
+            </div>
+        
+            <div class="col mb-3">
+              <h5>Ürünler</h5>
+
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Organik Çilek</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bal</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Organik Süt</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Soya Sütü</a></li>
+              </ul>
+            </div>
+        
+            <div class="col mb-3">
+              <h5>Hakkımızda</h5>
+
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ekip</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Konumlar</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gizlilik ve Koşullar</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">İletişim</a></li>
+              </ul>
+            </div>
+        </footer>
+        <!-- footer bitis -->
+
+    </div>
+    <!-- container bitis-->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    
+</body>
+</html>
